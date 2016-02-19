@@ -425,7 +425,7 @@ class Game {
         }
 
         if (this.currentVariation.selectedMoveHistoryIndex === 0 && this.currentVariation.parentVariation) {
-            if (this.ascendFromCurrentContinuation({ shouldLog: false })) {
+            if (this.ascendFromCurrentVariation({ shouldLog: false })) {
                 return true;
             } else {
                 return false;

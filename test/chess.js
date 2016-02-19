@@ -565,7 +565,7 @@ suite("PGN", () => {
            chess.prev();
            chess.createVariationFromSan('--');
 
-           assert.equal('1. e4  ^ -- 2. a3 (2. a4)', chess.toPgn({showMoveCursor: true}));
+           assert.equal('1. e4 -- 2. a3  ^ (2. a4) (2. b4)', chess.toPgn({showMoveCursor: true}));
         });
     });
 
