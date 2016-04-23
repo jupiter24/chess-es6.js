@@ -511,6 +511,17 @@ class Game {
         return this._selectMove(0);
     }
 
+    goToPosition(path) {
+        this.eventLog.add('goToPosition()');
+        this.rewindToBeginning();
+        for(var i = 0; i < path.length; i++) {
+            this.currentVariation.replayToPlyNum(path[i]['ply']);
+            if ('variation' in path[i]) {
+                this.descendIntoVariation(path[i]['variation']);
+            }
+        }
+    }
+
     // --------------------------------------
     // pass-through API methods, alphabetized
     // --------------------------------------
