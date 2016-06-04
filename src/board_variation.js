@@ -1,13 +1,13 @@
 'use strict';
 
-const Color = require('./../src/color');
-const EventLog = require('./../src/event_log');
-const Fen = require('./../src/fen');
-const Flags = require('./../src/flags');
-const Move = require('./../src/move');
-const MoveContext = require('./../src/move_context');
-const Piece = require('./../src/piece');
-const PieceType = require('./../src/piece_type');
+const Color = require('./color');
+const EventLog = require('./event_log');
+const Fen = require('./fen');
+const Flags = require('./flags');
+const Move = require('./move');
+const MoveContext = require('./move_context');
+const Piece = require('./piece');
+const PieceType = require('./piece_type');
 
 class BoardVariation {
 

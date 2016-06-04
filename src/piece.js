@@ -1,7 +1,7 @@
 'use strict';
 
-const Color = require('./../src/color');
-const PieceType = require('./../src/piece_type');
+const Color = require('./color');
+const PieceType = require('./piece_type');
 
 class Piece {
     constructor(options) {

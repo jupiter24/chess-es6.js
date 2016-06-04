@@ -1,6 +1,6 @@
 'use strict';
 
-const Color = require('./../src/color');
+const Color = require('./color');
 
 class MoveContext {
 

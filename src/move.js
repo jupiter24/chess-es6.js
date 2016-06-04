@@ -1,9 +1,9 @@
 'use strict';
 
-const Color = require('./../src/color');
-const PieceType = require('./../src/piece_type');
-const Piece = require('./../src/piece');
-const Flags = require('./../src/flags');
+const Color = require('./color');
+const PieceType = require('./piece_type');
+const Piece = require('./piece');
+const Flags = require('./flags');
 
 // TODO 8.17.15 I'm thinking it might make more sense to just add MoveContext and also MoveMetadata
 // as member hash variables of this here class

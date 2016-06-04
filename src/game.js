@@ -1,13 +1,13 @@
 'use strict';
 
-const BoardVariation = require('../src/board_variation');
-const Color = require('./../src/color');
-const EventLog = require('./../src/event_log');
-const Fen = require('../src/fen');
-const Flags = require('./../src/flags');
-const LinkedHashMap = require('../src/linked_hash_map');
-const Move = require('./../src/move');
-const PieceType = require('./../src/piece_type');
+const BoardVariation = require('board_variation');
+const Color = require('./color');
+const EventLog = require('./event_log');
+const Fen = require('fen');
+const Flags = require('./flags');
+const LinkedHashMap = require('./linked_hash_map');
+const Move = require('./move');
+const PieceType = require('./piece_type');
 
 class Game {
 
