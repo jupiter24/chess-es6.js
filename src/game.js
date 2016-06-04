@@ -1,9 +1,9 @@
 'use strict';
 
-const BoardVariation = require('board_variation');
+const BoardVariation = require('./board_variation');
 const Color = require('./color');
 const EventLog = require('./event_log');
-const Fen = require('fen');
+const Fen = require('./fen');
 const Flags = require('./flags');
 const LinkedHashMap = require('./linked_hash_map');
 const Move = require('./move');

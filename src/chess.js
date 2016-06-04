@@ -1,8 +1,8 @@
 'use strict';
 
-const BoardVariation = require('board_variation');
+const BoardVariation = require('./board_variation');
 const Color = require('./color');
-const Fen = require ('fen');
+const Fen = require ('./fen');
 const Flags = require('./flags');
 const Game = require('game');
 const Move = require('./move');
