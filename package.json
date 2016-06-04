@@ -1,23 +1,19 @@
 {
-  "name": "engine",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "chess-es6.js",
+  "version": "0.1.0",
+  "description": "Chess library with support for variations, FEN and PGN",
+  "directories": {
+    "test": "test",
+    "lib": "lib"
   },
-  "dependencies": {
-    "MD5": "^1.2.1",
-    "assert": "^1.3.0",
-    "babel": "^5.0.9",
-    "babel-core": "^5.0.9",
-    "babel-loader": "^5.0.0",
-    "closurecompiler": "^1.5.2",
-    "fs": "*",
-    "mocha": "1.*",
-    "object-assign": "^4.0.1",
-    "uglify-js": "^2.4.24",
-    "webpack": "^1.12.0",
-    "webpack-closure-compiler": "^1.0.0"
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src --out-dir lib"
   },
   "devDependencies": {
-    "closurecompiler": ">=1.0.2"
+    "assert": "^1.4.1",
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "mocha": "^2.5.3"
   }
 }
