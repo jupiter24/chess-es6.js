@@ -6,8 +6,7 @@
     "test": "test",
     "lib": "lib"
   },
-  "name": "engine",
-  "version": "0.1.0",
+  "main": "lib/chess.js",
   "scripts": {
     "test": "mocha",
     "build": "babel src --out-dir lib"
