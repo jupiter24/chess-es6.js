@@ -16,5 +16,10 @@
     "babel-cli": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
     "mocha": "^2.5.3"
+  },
+  "jspm": {
+      "jspmNodeConversion": false,
+      "format": "cjs",
+      "registry": "npm"
   }
 }
