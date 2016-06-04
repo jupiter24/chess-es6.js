@@ -4,7 +4,7 @@ const BoardVariation = require('./board_variation');
 const Color = require('./color');
 const Fen = require ('./fen');
 const Flags = require('./flags');
-const Game = require('game');
+const Game = require('./game');
 const Move = require('./move');
 const PieceType = require('./piece_type');
 
