@@ -1,11 +1,11 @@
-import Move = require('./move');
-import MoveContext = require('./move_context');
-import MoveMetadata = require('./move_metadata');
-import Piece = require('./piece');
+import {Move} from './move';
+import {MoveContext} from './move_context';
+import {MoveMetadata} from './move_metadata';
+import {Piece} from './piece';
 
 declare type shouldLog = {shouldLog: boolean};
 
-declare class Game {
+export declare class Game {
     constructor(fen?: string, headerPairs?: string[]);
 
     toString(): string;
@@ -52,5 +52,3 @@ declare class Game {
     remove(square: string): Piece|boolean;
     toFen(): string;
 }
-
-export = Game;

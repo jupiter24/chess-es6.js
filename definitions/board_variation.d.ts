@@ -1,10 +1,10 @@
-import EventLog = require('./event_log');
-import Piece = require('./piece');
-import Game = require('./game');
-import Move = require('./move');
-import MoveContext = require('./move_context');
+import {EventLog} from './event_log';
+import {Piece} from './piece';
+import {Game} from './game';
+import {Move} from './move';
+import {MoveContext} from './move_context';
 
-declare class BoardVariation {
+export declare class BoardVariation {
     constructor(eventLog: EventLog);
     static copyFrom(other: BoardVariation): BoardVariation;
     static createFromParentVariation(parent: BoardVariation, option?: {
@@ -69,5 +69,3 @@ declare class BoardVariation {
     static id: number;
     id: number;
 }
-
-export = BoardVariation;

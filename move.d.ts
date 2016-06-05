@@ -1,7 +1,7 @@
-import Piece = require('./piece');
-import BoardVariation = require('./board_variation');
+import {Piece} from './piece';
+import {BoardVariation} from './board_variation';
 
-declare class Move {
+export declare class Move {
     constructor(options: {
         from: number,
         to: number,
@@ -37,5 +37,3 @@ declare class Move {
     static SQUARES_LOOKUP: {[index: number]: string};
     static WILDCARD_MOVE: string;
 }
-
-export = Move;

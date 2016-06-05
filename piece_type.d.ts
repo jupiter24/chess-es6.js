@@ -1,6 +1,6 @@
 declare type pieceType = string;
 
-declare class PieceType {
+export declare class PieceType {
     static NONE: pieceType;
     static PAWN: pieceType;
     static KNIGHT: pieceType;
@@ -9,5 +9,3 @@ declare class PieceType {
     static QUEEN: pieceType;
     static KING: pieceType;
 }
-
-export = PieceType;

@@ -1,7 +1,7 @@
-import Color = require('./color');
-import PieceType = require('./piece_type');
+import {Color} from './color';
+import {PieceType} from './piece_type';
 
-declare class Piece {
+export declare class Piece {
     constructor(options: {
         pieceType: string,
         color: string
@@ -26,5 +26,3 @@ declare class Piece {
     static WHITE_PROMOTION_PIECES: Piece[];
     static BLACK_PROMOTION_PIECES: Piece[];
 }
-
-export = Piece;

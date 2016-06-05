@@ -1,11 +1,11 @@
-import Move = require('./move');
-import MoveContext = require('./move_context');
-import MoveMetadata = require('./move_metadata');
-import Piece = require('./piece');
+import {Move} from './move';
+import {MoveContext} from './move_context';
+import {MoveMetadata} from './move_metadata';
+import {Piece} from './piece';
 
 declare type shouldLog = {shouldLog: boolean};
 
-declare class Chess {
+export declare class Chess {
     constructor(fen?: string);
 
     toString(): string;
@@ -59,5 +59,3 @@ declare class Chess {
                           metadata: MoveMetadata): MoveContext;
     selectMove(i: number): Move|any;
 }
-
-export = Chess;

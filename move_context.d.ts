@@ -1,6 +1,6 @@
-import Move = require('./move');
+import {Move} from './move';
 
-declare class MoveContext {
+export declare class MoveContext {
     constructor(options: {
         move: Move,
         turn: string,
@@ -19,5 +19,3 @@ declare class MoveContext {
     toString(): string;
     inspect(): string;
 }
-
-export = MoveContext;

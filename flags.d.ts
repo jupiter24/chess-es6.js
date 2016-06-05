@@ -1,4 +1,4 @@
-declare class Flags {
+export declare class Flags {
     static NORMAL: number;
     static CAPTURE:number;
     static BIG_PAWN:number;  // a pawn moving two spaces
@@ -10,5 +10,3 @@ declare class Flags {
         [x: number]: string
     };
 }
-
-export = Flags;

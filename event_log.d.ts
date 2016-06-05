@@ -1,6 +1,4 @@
-declare class EventLog {
+export declare class EventLog {
     constructor();
     add(event: string);
 }
-
-export = EventLog;

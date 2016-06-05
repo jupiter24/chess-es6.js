@@ -1,4 +1,4 @@
-declare class Fen {
+export declare class Fen {
     static validate(fen: string): {
         isValid: boolean,
         errorCode: number,
@@ -9,5 +9,3 @@ declare class Fen {
     static DEFAULT_POSITION: string;
     static DEFAULT_POSITION_FULL: string;
 }
-
-export = Fen;
