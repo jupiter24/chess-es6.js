@@ -1,7 +1,7 @@
 'use strict';
 
-const Color = require('./color');
-const PieceType = require('./piece_type');
+const Color = require('./color').Color;
+const PieceType = require('./piece_type').PieceType;
 
 class Piece {
     constructor(options) {
@@ -71,4 +71,4 @@ Piece.BLACK_PROMOTION_PIECES = [
     Piece.BLACK_KNIGHT
 ];
 
-module.exports = Piece;
+module.exports.Piece = Piece;

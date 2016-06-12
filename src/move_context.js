@@ -1,6 +1,6 @@
 'use strict';
 
-const Color = require('./color');
+const Color = require('./color').Color;
 
 class MoveContext {
 
@@ -45,4 +45,4 @@ class MoveContext {
 
 };
 
-module.exports = MoveContext;
+module.exports.MoveContext = MoveContext;

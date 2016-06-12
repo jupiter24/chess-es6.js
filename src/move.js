@@ -1,9 +1,9 @@
 'use strict';
 
-const Color = require('./color');
-const PieceType = require('./piece_type');
-const Piece = require('./piece');
-const Flags = require('./flags');
+const Color = require('./color').Color;
+const PieceType = require('./piece_type').PieceType;
+const Piece = require('./piece').Piece;
+const Flags = require('./flags').Flags;
 
 // TODO 8.17.15 I'm thinking it might make more sense to just add MoveContext and also MoveMetadata
 // as member hash variables of this here class
@@ -324,4 +324,4 @@ Move.SHIFTS = {
 //
 Move.WILDCARD_MOVE = '--';
 
-module.exports = Move;
+module.exports.Move = Move;

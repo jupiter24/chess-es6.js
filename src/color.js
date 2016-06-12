@@ -15,4 +15,4 @@ Color.WHITE = 'w';
 Color.BLACK = 'b';
 Color.NONE = '~';
 
-module.exports = Color;
+module.exports.Color = Color;

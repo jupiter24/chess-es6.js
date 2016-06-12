@@ -1,13 +1,13 @@
 'use strict';
 
-const BoardVariation = require('./board_variation');
-const Color = require('./color');
-const EventLog = require('./event_log');
-const Fen = require('./fen');
-const Flags = require('./flags');
-const LinkedHashMap = require('./linked_hash_map');
-const Move = require('./move');
-const PieceType = require('./piece_type');
+const BoardVariation = require('./board_variation').BoardVariation;
+const Color = require('./color').Color;
+const EventLog = require('./event_log').EventLog;
+const Fen = require('./fen').Fen;
+const Flags = require('./flags').Flags;
+const LinkedHashMap = require('./linked_hash_map').LinkedHashMap;
+const Move = require('./move').Move;
+const PieceType = require('./piece_type').PieceType;
 
 class Game {
 
@@ -568,4 +568,4 @@ class Game {
     }
 };
 
-module.exports = Game;
+module.exports.Game = Game;

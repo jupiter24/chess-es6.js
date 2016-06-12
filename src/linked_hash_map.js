@@ -59,4 +59,4 @@ class LinkedHashMap
     }
 };
 
-module.exports = LinkedHashMap;
+module.exports.LinkedHashMap = LinkedHashMap;

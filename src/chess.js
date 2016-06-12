@@ -1,12 +1,12 @@
 'use strict';
 
-const BoardVariation = require('./board_variation');
-const Color = require('./color');
-const Fen = require ('./fen');
-const Flags = require('./flags');
-const Game = require('./game');
-const Move = require('./move');
-const PieceType = require('./piece_type');
+const BoardVariation = require('./board_variation').BoardVariation;
+const Color = require('./color').Color;
+const Fen = require ('./fen').Fen;
+const Flags = require('./flags').Flags;
+const Game = require('./game').Game;
+const Move = require('./move').Move;
+const PieceType = require('./piece_type').PieceType;
 
 class Chess {
 
@@ -448,4 +448,4 @@ class Chess {
     }
 };
 
-module.exports = Chess;
+module.exports.Chess = Chess;

@@ -19,4 +19,4 @@ Flags.DISPLAY = {
     [ Flags.QSIDE_CASTLE ]: 'q'
 };
 
-module.exports = Flags;
+module.exports.Flags = Flags;

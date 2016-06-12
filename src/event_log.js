@@ -30,4 +30,4 @@ class EventLog {
 
 };
 
-module.exports = EventLog;
+module.exports.EventLog = EventLog;

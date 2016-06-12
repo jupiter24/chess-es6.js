@@ -88,4 +88,4 @@ Fen.ERRORS =  {
 Fen.DEFAULT_POSITION      = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR';
 Fen.DEFAULT_POSITION_FULL = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
 
-module.exports = Fen;
+module.exports.Fen = Fen;
