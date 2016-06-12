@@ -2,7 +2,7 @@ import {Move} from './move';
 import {MoveContext} from './move_context';
 import {MoveMetadata} from './move_metadata';
 import {Piece} from './piece';
-import {Game} from '.game';
+import {Game} from './game';
 
 declare type shouldLog = {shouldLog: boolean};
 
