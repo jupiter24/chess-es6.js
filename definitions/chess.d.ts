@@ -43,9 +43,9 @@ export declare class Chess {
     isThreefoldRepetition(): boolean;
     isGameOver(): boolean;
     moves(options?: {
-        onlyAlgebraicSquares: boolean,
-        onlyDestinationSquares: boolean,
-        onlyForSquare: string
+        onlyAlgebraicSquares?: boolean,
+        onlyDestinationSquares?: boolean,
+        onlyForSquare?: string
     }): string[];
     put(piece: Piece, square: string): boolean;
     get(square: string): Piece|boolean;
@@ -56,7 +56,7 @@ export declare class Chess {
     makeMoveFromSan(san: string, metadata: MoveMetadata): MoveContext;
     makeMoveFromAlgebraic(from: string,
                           to : string,
-                          promotionPieceType: string,
-                          metadata: MoveMetadata): MoveContext;
+                          promotionPieceType?: string,
+                          metadata?: MoveMetadata): MoveContext;
     selectMove(i: number): Move|any;
 }

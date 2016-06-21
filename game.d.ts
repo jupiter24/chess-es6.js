@@ -10,12 +10,12 @@ export declare class Game {
 
     toString(): string;
     loadFen(fen: string): boolean;
-    makeMove(move: Move, metadata: MoveMetadata): MoveContext;
-    makeMoveFromSan(san: string, metadata: MoveMetadata): MoveContext;
+    makeMove(move: Move, metadata?: MoveMetadata): MoveContext;
+    makeMoveFromSan(san: string, metadata?: MoveMetadata): MoveContext;
     makeMoveFromAlgebraic(from: string,
                           to : string,
-                          promotionPieceType: string,
-                          metadata: MoveMetadata): MoveContext;
+                          promotionPieceType?: string,
+                          metadata?: MoveMetadata): MoveContext;
     toPgn(options?: {
         maxWidth?: number,
         newlineChar?: string,
@@ -43,9 +43,9 @@ export declare class Game {
     isThreefoldRepetition(): boolean;
     isGameOver(): boolean;
     moves(options?: {
-        onlyAlgebraicSquares: boolean,
-        onlyDestinationSquares: boolean,
-        onlyForSquare: string
+        onlyAlgebraicSquares?: boolean,
+        onlyDestinationSquares?: boolean,
+        onlyForSquare?: string
     }): string[];
     put(piece: Piece, square: string): boolean;
     get(square: string): Piece|boolean;

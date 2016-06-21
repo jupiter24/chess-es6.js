@@ -1,6 +1,6 @@
 {
   "name": "chess-es6.js",
-  "version": "0.1.7",
+  "version": "0.1.11",
   "description": "Chess library with support for variations, FEN and PGN",
   "directories": {
     "test": "test",

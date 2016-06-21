@@ -2,6 +2,9 @@ import {Color} from './color';
 import {PieceType} from './piece_type';
 
 export declare class Piece {
+    type: string;
+    color: string;
+
     constructor(options: {
         pieceType: string,
         color: string
