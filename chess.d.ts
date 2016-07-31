@@ -7,6 +7,8 @@ import {Game} from './game';
 declare type shouldLog = {shouldLog: boolean};
 
 export declare class Chess {
+    games: Game[];
+
     constructor(fen?: string);
 
     toString(): string;
